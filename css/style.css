@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Livvic', sans-serif;
+}
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1110px;
+
+    margin: 0 auto;
+
+}
+
+.head-container {
+    padding-top: 78px;
+    background-color: rgb(1, 78, 86);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.links {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    color: white;
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.header-links {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-btn {
+    width: 153px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 2px solid #FFF;
+    background-color: rgb(1, 78, 86);
+    color: #FFF;
+    cursor: pointer;
+}
+
+.contact-btn:hover {
+    background-color: #FFF;
+    color: rgb(1, 78, 86);
+    transition: all 0.6s ease;
+}
+
+.main-wrapper {
+    display: flex;
+    gap: 30px;
+    padding-top: 139px;
+    padding-bottom: 250px;
+
+}
+
+.left-main h1 {
+    max-width: 600px;
+    color: #FFF;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    /* 100% */
+}
+
+.main-container {
+    background-color: rgb(1, 78, 86);
+}
+
+.right-main {
+    color: #FFF;
+    width: 445px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.color-pink {
+    color: #F67E7E;
+}
+
+.element {
+    width: 50px;
+    height: 4px;
+    flex-shrink: 0;
+    background: #79C8C7;
+    margin-bottom: 79px;
+}
+
+.team-description {
+    background-color: rgb(0, 37, 41);
+}
+
+.descript-flex {
+    display: flex;
+    gap: 125px;
+    padding-top: 198px;
+    padding-bottom: 140px;
+}
+
+.left-description h1 {
+    color: #FFF;
+    width: 445px;
+    ;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 100% */
+}
+
+.description {
+    display: flex;
+    gap: 23px;
+
+}
+
+.text-description h3 {
+    color: #F67E7E;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.text-description p {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    /* 166.667% */
+}
+
+.right-description {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.element-top {
+    width: 50px;
+    height: 4px;
+    flex-shrink: 0;
+    background-color: #F67E7E;
+    margin-bottom: 54px;
+}
+
+.result-stories {
+    padding-top: 140px;
+    padding-bottom: 151px;
+}
+
+.team-members {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+
+}
+
+.result-stories h1 {
+    color: #FFF;
+    text-align: center;
+    width: 932px;
+    margin-bottom: 92px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 100% */
+}
+
+.green-text {
+    color: #79C8C7;
+}
+
+.member p {
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    /* 166.667% */
+    margin-bottom: 24px;
+}
+
+.name {
+    color: #79C8C7;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.member img {
+    width: 62px;
+    height: 62px;
+    flex-shrink: 0;
+    border-radius: 62px;
+    border: 2px solid #C4FFFE;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+}
+
+.contact-text {
+    color: #012F34;
+
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 100% */
+}
+
+.contact {
+    background: #F67E7E;
+    padding: 76px 260px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-button {
+    width: 153px;
+    border-radius: 24px;
+    border: 2px solid #012F34;
+    background-color: #F67E7E;
+    color: #012F34;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 155.556% */
+    height: 48px;
+}
+
+.contact-button:hover {
+    background-color: white;
+    border: 2px white;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+footer {
+    background: #012F34;
+    padding: 48px 0;
+}
+
+.footer-flex {
+    display: flex;
+    gap: 125px;
+    
+}
+
+.footer-links {
+    width: 285px;
+}
+
+.footer-nav {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    color: white;
+    margin-top: 25px;
+}
+
+.location-links ul {
+    color: #FFF;
+    width: 445px;   
+    opacity: 0.6;
+    list-style: none;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    
+    /* 166.667% */
+}
+.social-media-links{
+    text-align: right;
+}
+.copyright{
+    color: #FFF;
+    opacity: 0.6;
+    margin-top: 51px;
+
+}
+
+.social-media-links img{
+    cursor: pointer;
+}
+
+ul li{
+    cursor: pointer;
+}
